@@ -1,0 +1,307 @@
+
+/* reset code */
+/* button css */
+.btn {
+	background-color: tomato;
+	display: inline-block;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 5px 12px;
+	color: white;
+	font-size: 15px;
+	margin-top: 20px;
+	transition: .3s;
+}
+.btn:hover {
+	background-color: greenyellow;
+	color: violet;
+}
+
+/* button css finish */
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    
+}
+ul{
+    list-style: none;
+}
+.fix:before, .fix:after{
+    content: "";
+    display: table;
+    clear:both ;
+}
+body{
+    font-size: 14px;
+    line-height: 22px; 
+}
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header css */
+.header {
+	background-color: #6E777E;
+	padding: 1px 3px;
+}
+.logo {
+	float: left;
+	width: 120px;
+	margin-right: 30px;
+}
+.logo a{}
+.logo a img{}
+.menu {
+	float: right;
+	width: 818px;
+}
+.menu ul {
+	text-align: right;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	color: black;
+	text-decoration: none;
+	padding: 10px 15px;
+	font-size: 20px;
+	display: block;
+	margin-top: 15px;
+}
+.menu ul li a:hover {
+	background-color: tomato;
+	color: white;
+	transition: 1s;
+}
+/* Services css */
+
+.services{}
+.title{}
+.title h4 {
+	text-align: center;
+	font-size: 50px;
+	margin: 20px 0px;
+	text-transform: capitalize;
+}
+.service{}
+.single-service {
+	background-color: teal;
+	float: left;
+	width: 313px;
+	margin-right: 30px;
+	padding: 15px;
+}
+.single-service:last-child, .service-page .single-service:nth-child(4){
+    margin-right: 0px;
+}
+.service-page .single-service {
+	background-color: teal;
+	float: left;
+	width: 240px;
+	margin-right: 10px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.single-service h4 {
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	text-transform: capitalize;
+	color: white;
+}.single-service img{}
+.single-service p {
+	text-align: justify;
+	line-height: 1.5;
+	color: white;
+	font-family: roboto;
+}.single-service a{}
+.single-service a .btn{}
+/* service End here */
+
+/* About us Start here */
+.about{}
+.about-left {
+	float: left;
+	width: 723px;
+	font-size: 16px;
+	padding: 8px 2px;
+}
+.about-left h4, .about-menu h3 {
+	font-size: 22px;
+	font-family: roboto;
+	padding: 5px;
+	margin-top: 14px;
+}
+.about-left p {
+	font-family: roboto;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 10px;
+}
+.about-menu {
+	float: right;
+	width: 277px;
+}
+.about-menu ul {
+	padding: 0;
+	margin: 0;
+}
+.about-menu ul li {
+	background-image: url('../image/next.png');
+	background-repeat: no-repeat;
+	background-position: -7px 1px;
+	padding-left: 12px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.about-menu ul li:last-child{
+    border-bottom: 0px;
+}
+.about-menu ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	display: block;
+	margin-left: 4px;
+}
+.about-menu ul li a:hover{
+    color:tomato
+}
+/* About us End here */
+
+/* Footer */
+.footer {
+	text-align: center;
+	background-color: #008080;
+	padding: 20px;
+}
+
+.footer p {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+  }
+/* About page banner */
+
+.page-banner {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	padding: 160px 0;
+	position: relative;
+	z-index: -1;
+	
+}
+.page-banner h2 {
+	font-size: 71px;
+	text-align: center;
+	color: white;
+	text-transform: capitalize;
+	z-index: 2;
+	position: relative;
+	
+	
+}
+.page-banner::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #333;
+	left: 0;
+	top: 0;
+	opacity: 0.55;
+	
+}
+/* gallery page csss */
+.gallerys{}
+.gallery{}
+.single-gallery {
+	float: left;
+	width: 231px;
+	margin-right: 25px;
+	padding: 5px;
+	
+}
+.single-gallery:last-child, .single-gallery:nth-child(4){
+	margin-right: 0px;
+}
+.single-gallery iframe {
+	width: 100%;
+	border: 1px solid blueviolet;
+	margin-bottom: 8px;
+}
+/* gallery page end css */
+/* contact page css */
+.contact {
+	padding-top: 50px;
+}
+.contact-form {
+	float: left;
+	width: 720px;
+	margin-right: 30px;
+}
+.contact-form h2, .address h2 {
+	text-align: left;
+	text-transform: capitalize;
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+.contact-form form{}
+.contact-form input {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 12px;
+	margin: 3px auto;
+}
+.contact-form textarea {
+	width: 100%;
+	margin: 10px auto;
+	border: 1px solid #ddd;
+	padding: 14px;
+	height: 100px;
+}
+.contact-form input[type="button"] {
+	background-color: tomato;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	width: auto;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: .3s;
+}
+.contact-form input[type="button"]:hover{
+	background-color: coral;
+}
+.address {
+	float: right;
+	width: 240px;
+}
+.address ul{}
+.address ul li {
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+.address ul li span {
+	font-weight: bold;
+	font-style: italic;
+}
+.google-map {
+	margin-top: 30px;
+}
+.google-map iframe {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 15px;
+}
